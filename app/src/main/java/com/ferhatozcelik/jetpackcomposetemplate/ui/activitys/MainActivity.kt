@@ -1,4 +1,5 @@
 package com.ferhatozcelik.jetpackcomposetemplate.ui.activitys
+"https://api.twelvedata.com/time_series?symbol=BTC/USD&interval=1min&apikey=1ea0815d07484662b581a62d339707bd"
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
