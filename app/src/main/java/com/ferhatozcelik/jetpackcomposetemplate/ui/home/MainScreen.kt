@@ -30,6 +30,7 @@ data class Candle(
     val close: Double
 )
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainScreen(
     viewModel: HomeViewModel = hiltViewModel(),
@@ -344,4 +345,3 @@ fun MainScreen(
         Spacer(modifier = Modifier.height(24.dp))
     }
 }
-
